@@ -32,3 +32,35 @@
  * *El comando de mongosh "URI" es para conectarse a la db
  * *Los comandos funcionan igual a los de las querys de los archivos
  */
+
+/** 09-JSON vs BSON
+ * *Son formatos en los que mongo guarda los datos
+ * *Ventajas de JSON:
+ *  ?Amigable
+ *  ?Se puede leer
+ *  ?Es un formato muy usado
+ * *Desventajas de JSON:
+ *  ?Basado en texto
+ *  ?Consume mucho espacio
+ *  ?Es limitado => string, number, booleans, array
+ * *Ventajas de BSON:
+ *  ?Representación binaria de JSON
+ *  ?No consume espacio
+ *  ?Alto rendimiento
+ *  ?Tipos de datos => los json más date, raw binary, integer, long, float
+ * *Desventajas de BSON:
+ *  ?No es estándar
+ *  ?Lenguaje para máquinas
+ *  ?No es fácil de leer
+ * *Mongo muestra los datos en JSON y los maneja y almacena en BSON
+ * *Datos de BSON que no están en JSON:
+ *  ?byte
+ *  ?int32
+ *  ?int64
+ *  ?uint64
+ *  ?double
+ *  ?decimal128
+ *  ?date
+ *  ?objectId
+ *  ?array
+ */
