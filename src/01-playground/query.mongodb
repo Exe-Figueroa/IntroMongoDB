@@ -1,0 +1,5 @@
+use('sample_training') // Use es para seleccionar la db
+
+// Para hacer consultas a una conexión
+db.zips.find({state: 'NY'}).count();
+
