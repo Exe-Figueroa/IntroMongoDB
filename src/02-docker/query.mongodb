@@ -1,0 +1,2 @@
+use('facu_store');
+db.products.find();
