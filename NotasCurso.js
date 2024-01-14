@@ -25,3 +25,10 @@
  * *Conectar con compass
  * *Conectar con vsc y ejecutar pruebas
  */
+
+/** 08-Conectándonos usando mongosh
+ * *Creamos carpeta con un archivo .md para los comandos
+ * *El comando dice que queremos ejecutar una terminal en el contenedor de mongodb
+ * *El comando de mongosh "URI" es para conectarse a la db
+ * *Los comandos funcionan igual a los de las querys de los archivos
+ */
