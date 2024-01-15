@@ -1,0 +1,15 @@
+use('facu_store');
+
+db.products.updateOne(
+  {
+    _id: ObjectId('65a4978e620a2fdfab2938ba')
+  },
+  {
+    $inc: {
+      price: 400
+    }
+  }
+);
+
+db.products.find();
+

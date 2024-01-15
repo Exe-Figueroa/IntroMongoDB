@@ -78,3 +78,17 @@
  * *Si los elementos en la lista están repetidos (O al menos su id) te devuelve un error pero envía los datos hasta el punto donde falla después del fallo no envía más datos
  * *Se le puede agregar una opción para que omita los errores y siga con los demás datos que se envíen
  */
+
+/** 12-Actualizando un documento
+ * *Se crea un archivo para trabajar las actualizaciones
+ * *Primero agregar datos a la db con un insertMany
+ * *.updateOne => Es para actualizar un solo objeto
+ *  ?Recibe 2 parámetros, el primero es un obj con un valor para identificarlo y el segundo es uno con los valores nuevos pero con un operador
+ *  ?No necesariamente tiene que ser el id el identificador
+ *  ?Con el set también se pueden agregar nuevos atributos
+ * *Operador inc => Sirve para incrementar valores numéricos
+ *  ?Este recibe 2 valores, el identificador del producto y cuánto lo vamos a incrementar
+ *  ?Con base al valor inicial se le agrega otro
+ * *ObjectId => Es para editar los valores de los elementos a los que mongo les generó el id automáticamente
+ *  ?Esto es debido a que los id generados por mongo solo se encuentran con dicha función (Asumo será un método de seguridad o algo por el estilo)
+ */

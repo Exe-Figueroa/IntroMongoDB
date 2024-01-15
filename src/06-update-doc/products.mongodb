@@ -1,0 +1,34 @@
+use('facu_store');
+
+db.products.drop();
+
+const productList = [
+  {
+    _id: 1,
+    name: 'Product lala 1',
+    price: 100
+  },
+  {
+    _id: 2,
+    name: 'Product lala 2',
+    price: 200
+  },
+  {
+    _id: 3,
+    name: 'Product lala 3',
+    price: 300
+  },
+  {
+    _id: 4,
+    name: 'Product lala 4',
+    price: 400
+  },
+  {
+    name: 'Product lala 5',
+    price: 500
+  },
+];
+
+db.products.insertMany(productList);
+
+db.products.find();

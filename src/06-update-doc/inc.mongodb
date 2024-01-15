@@ -1,0 +1,12 @@
+use('facu_store');
+
+const setNewValue = {
+  $inc:{
+    price: 400
+  }
+};
+
+db.products.updateOne({_id: 4}, setNewValue);
+
+db.products.find();
+
