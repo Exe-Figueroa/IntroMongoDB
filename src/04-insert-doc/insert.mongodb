@@ -1,0 +1,11 @@
+use('facu_store');
+
+db.products.insertOne({
+  name: 'Samsung a03',
+  price: 12340
+});
+db.products.insertOne({
+  name: 'Product 2',
+  price: 175504
+});
+

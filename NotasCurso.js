@@ -64,3 +64,9 @@
  *  ?objectId
  *  ?array
  */
+
+/** 10-Insertando un documento
+ *  *No hace falta crearla primero para utilizarla. Solo con colocar su nombre mongo entiende que la debe crear
+ * *Tener en cuenta que el playgorund se queda con el output de la última instrucción
+ * *Descubrimiento => Se puede editar el output y esa info se enviará a la db. Puede servir para casos de corrección de datos y cosas por el estilo
+ */
