@@ -70,3 +70,11 @@
  * *Tener en cuenta que el playgorund se queda con el output de la última instrucción
  * *Descubrimiento => Se puede editar el output y esa info se enviará a la db. Puede servir para casos de corrección de datos y cosas por el estilo
  */
+
+/** 11-Insertando varios documentos
+ * *Se puede utilizar una sintaxis de JavaScript para poder crear arrays, objetos, etc.
+ * *Con insertMany se puede enviar un array de objetos
+ * *.drop() elimina la collección
+ * *Si los elementos en la lista están repetidos (O al menos su id) te devuelve un error pero envía los datos hasta el punto donde falla después del fallo no envía más datos
+ * *Se le puede agregar una opción para que omita los errores y siga con los demás datos que se envíen
+ */
