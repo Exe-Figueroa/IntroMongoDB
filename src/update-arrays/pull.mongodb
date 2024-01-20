@@ -1,0 +1,24 @@
+use("facu_store")
+
+// // remove a element from arrar
+// db.inventory.updateMany(
+//   {},
+//   {
+//     $pull:{
+//       tags: 'book'
+//     }
+//   })
+
+// Remove n elements from array
+db.inventory.updateMany(
+  {},
+  {
+    $pull:{
+      tags: {
+        $in: [
+          "appliance",
+          "school"
+        ]
+      }
+    }
+  })

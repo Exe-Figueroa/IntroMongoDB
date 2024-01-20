@@ -100,3 +100,11 @@
  * *Para renombrar atributos se utiliza $rename => Toma un attr y le cambia el valor
  * *Para eliminar un attribute se utiliza $unset
  */
+
+/** 14-Array Update Operators
+ * *Se va a trabajar con el operador push
+ * *Primero se le dice que vamos a seleccionar un elemento y después con el operador push se le dice en que lugar se le va a insertar la data y listo
+ * *Pull es la manera de quitar un elemento
+ * *Para especificar que queremos actualizar todos los documentos simplemente colocamos el query sin nada => {},
+ * *Para eliminar varios elementos de un array se utiliza el operador interno $in y se le pasa como valor un array con los elementos a eliminar
+ */
