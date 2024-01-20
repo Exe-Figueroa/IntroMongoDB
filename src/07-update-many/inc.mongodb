@@ -1,0 +1,12 @@
+use("sample_training");
+
+db.zips.find({ city: 'CLEVELAND' }).count()
+
+db.zips.updateMany(
+  { city: "CLEVELAND" },
+  {
+    $inc: {
+      pop: 100
+    }
+  }
+)

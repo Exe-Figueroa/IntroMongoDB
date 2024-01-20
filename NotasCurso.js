@@ -92,3 +92,11 @@
  * *ObjectId => Es para editar los valores de los elementos a los que mongo les generó el id automáticamente
  *  ?Esto es debido a que los id generados por mongo solo se encuentran con dicha función (Asumo será un método de seguridad o algo por el estilo)
  */
+
+/** 13-Actualizando varios documentos
+ * *Se llama al método updateMany de la db
+ * *La primera parte es un query
+ * *La segunda parte es el cuerpo que vamos a actualizar, se pueden utilizar los operadores set, inc, etc para alterar los valores
+ * *Para renombrar atributos se utiliza $rename => Toma un attr y le cambia el valor
+ * *Para eliminar un attribute se utiliza $unset
+ */
