@@ -1,0 +1,11 @@
+use("facu_store")
+
+// db.inventory.find({ qty: 15 }) //Manera implícita
+// db.inventory.find({ qty: {$eq : 15} }) //Manera explícita
+
+// db.inventory.find({ "item.code": "456" })
+// db.inventory.find({ "item.code": { $eq: "456" } })
+
+//ne
+db.inventory.find({ "item.code": {$ne : "456"} })
+

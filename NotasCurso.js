@@ -125,3 +125,13 @@
  * *O con .deleteMany({query})
  * *Y también con .drop() => Borra toda la colleción
  */
+
+/** 17-Usando $eq y $ne
+ * *Comparison query operators
+ * *eq => igual que
+ * *ne => no igual que
+ * *eq => se maneja de manera implícita en el método find
+ * *Para acceder a los subobjetos se coloca el nombre de la propiedad del documento seguido de un punto, seguido de la propiedad del subobjeto y todo eso encerrado entre comillas
+ * !Para ne es lo mismo que con eq solo que ne siempre tiene que ser de manera explícita
+ * *Como son de tipo query se puede utilizar un updateMany o algo por el estilo identificando esos documentos
+ */

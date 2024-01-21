@@ -1,0 +1,15 @@
+use("facu_store")
+
+db.inventory.updateMany(
+  {
+    qty: {
+      $ne: 20
+    }
+  },
+  {
+    $set : {
+      newAttr : 'Hola nuevo atributo'
+    }
+  }
+)
+
