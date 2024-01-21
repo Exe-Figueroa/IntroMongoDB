@@ -179,3 +179,9 @@
  * *nor no incluye los valores que se le pasan
  * *not => es una negación hacia el atributo de un elemento
  */
+
+/** 25-Expressive operator
+ * *Al colocar el $expr se le pasa como valor un array con el nombre del atributo como si fuera un operador encerrado entre comillas y luego el valor (Ambos encerrados en un array)
+ * *Permite comparar valores, el primero del array con el segundo del array
+ * *Al usar el expressive operator te ves obligado a realizar las demás condiciones de la consulta de forma expresiva
+ */
