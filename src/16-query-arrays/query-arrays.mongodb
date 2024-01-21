@@ -1,0 +1,17 @@
+use("facu_store")
+// $in
+// db.inventory.find({ tags: { $in: ['bag'] } })
+
+// $nin
+// db.inventory.find({ tags: { $nin: ['bag'] } })
+
+// Only Arrays
+// $all
+// db.inventory.find({ tags: { $all: ["appliance", "school"] } })
+
+// $size
+// db.inventory.find({ tags: { $size: 2 } })
+
+// $elemMatch
+db.survey.find({ results: { $elemMatch: {product : "xyz", score: 7 }} })
+

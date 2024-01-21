@@ -162,3 +162,12 @@
  * *Se coloca el nombre del campo y un 1 para que venga o un 0 para que no aparezca
  * *Se reciben dos parámetros a la hora de hacer la query, el primero es la query y el segundo es la projection
  */
+
+/** 23-Operadores para Arrays
+ * *$in sirve para objetos, valores y arrays
+ * *Sirve para hacer como una especie de condicional a la query en donde le especificamos que encuentre el documento que contenga un elemento u otro
+ * *también está  $nin que es el contrario de in (Osea que no hayan dichos elementos dentro del documento)
+ * *$all => solo para arrays. Es como un and, se deben cumplir ambos elementos para que retorne el documento seleccionado
+ * *$size => para traer un documento en base a la longitud del array
+ * *$elemMatch => Para cuando tenemos un array que tiene objetos dentro
+ */
