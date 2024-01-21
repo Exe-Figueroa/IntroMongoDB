@@ -148,3 +148,9 @@
  * *Simplemente combinamos operadores
  * *Las consultas complejas también se pueden realizar desde compass
  */
+
+/** 21-Usando $regex
+ * *Sirve para filtrar por cadenas de texto
+ * *Respeta la misma sintaxis que los demás operadores
+ * *Se le pueden colocar expresiones regulares
+ */

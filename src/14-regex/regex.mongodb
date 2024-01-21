@@ -1,0 +1,11 @@
+use("facu_store")
+
+db.inventory.find({
+  "item.description": {
+    // $regex: /line/ //Busca los que contengan la palabra line
+    // $regex: /LINE/i //Busca los que contengan la palabra line sin importar mayúsculas ni minúsculas
+    // $regex: /line$/i // Busca un texto que termine con esa palabra
+    // $regex: /^single/i // Busca un texto que empiece con esa palabra
+    $regex: /^s/im // Busca un texto que tenga saltos de linea
+  }
+})
