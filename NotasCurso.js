@@ -119,3 +119,9 @@
  *  ?Esto lo que hace es que inserta o actualiza valores dependiendo de si la query encuentra el documento especificado
  * *Esta copado para automatizar valores que se van a ingresar de manera constantes a la db. No hay que estar decidiendo entre querys y aplicando lógica de programación para hacer inserciones o actualizaciones
  */
+
+/** 16-Eliminando documentos
+ * *Se pueden eliminar valores con .deleteOne({query})
+ * *O con .deleteMany({query})
+ * *Y también con .drop() => Borra toda la colleción
+ */
