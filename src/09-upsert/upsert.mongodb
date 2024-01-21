@@ -1,0 +1,17 @@
+use("facu_store")
+
+
+db.iot.updateOne(
+  {
+  sensor: "A001",
+  date: "2022-01-0r",
+},
+{
+  $push: {
+    readings: 2323
+  }
+},
+{
+  upsert: true
+}
+)

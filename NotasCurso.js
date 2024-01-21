@@ -108,3 +108,14 @@
  * *Para especificar que queremos actualizar todos los documentos simplemente colocamos el query sin nada => {},
  * *Para eliminar varios elementos de un array se utiliza el operador interno $in y se le pasa como valor un array con los elementos a eliminar
  */
+
+/** 15-Update or insert
+ * *Cómo guardar en mongo info de sensores y cuándo hacer un insert o un update (p/IOT)
+ * *Crear el dataset
+ * *Crear valores
+ * *Operador pop => Elimina el último valor de un array del documento o el primero dependiendo si se le pasa el valor de 1 o -1
+ * *Yo debería tener una forma para saber si realizar un insert o un update
+ * *Para eso se realiza un update pero se le pasa un tercer objeto con la propiedad upsert : true
+ *  ?Esto lo que hace es que inserta o actualiza valores dependiendo de si la query encuentra el documento especificado
+ * *Esta copado para automatizar valores que se van a ingresar de manera constantes a la db. No hay que estar decidiendo entre querys y aplicando lógica de programación para hacer inserciones o actualizaciones
+ */

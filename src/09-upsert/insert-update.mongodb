@@ -1,0 +1,42 @@
+use("facu_store")
+// db.iot.insertOne({
+//   sensor: "A001",
+//   date: "2022-01-03",
+//   readings: [1213]
+// })
+
+// db.iot.updateOne(
+//   {
+//   sensor: "A001",
+//   date: "2022-01-03",
+// },
+// {
+//   $pop: {
+//     readings: 1 // 1 para eliminar el del final y -1 para eliminar el primero
+//   }
+// }
+// )
+
+// db.iot.updateOne(
+//   {
+//     sensor: "A001",
+//     date: "2022-01-03",
+//   },
+//   {
+//     $pull: {
+//       readings: [2323]
+//     }
+//   }
+// )
+
+db.iot.updateOne(
+  {
+  sensor: "A001",
+  date: "2022-01-03",
+},
+{
+  $push: {
+    readings: 2323
+  }
+}
+)

@@ -1,0 +1,3 @@
+use("facu_store")
+
+db.iot.find()
