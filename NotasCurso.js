@@ -154,3 +154,11 @@
  * *Respeta la misma sintaxis que los demás operadores
  * *Se le pueden colocar expresiones regulares
  */
+
+/** 22-Projection
+ * *Manera de desseleccionar los elementos obtenidos luego de una consulta
+ * *Se encuentran en la parte de options de las consultas en compass
+ * *Permite seleccionar todos los attributos que nosostros queremos que vengan en la consulta
+ * *Se coloca el nombre del campo y un 1 para que venga o un 0 para que no aparezca
+ * *Se reciben dos parámetros a la hora de hacer la query, el primero es la query y el segundo es la projection
+ */
