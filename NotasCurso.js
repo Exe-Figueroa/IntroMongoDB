@@ -171,3 +171,11 @@
  * *$size => para traer un documento en base a la longitud del array
  * *$elemMatch => Para cuando tenemos un array que tiene objetos dentro
  */
+
+/** 24-Operadores lógicos
+ * *and, or y nor
+ * *Todo lo que va dentro de and va en forma de array y las condiciones como objetos clave valor
+ * *or sigue la misma sintaxis que and pero siempre es explícito
+ * *nor no incluye los valores que se le pasan
+ * *not => es una negación hacia el atributo de un elemento
+ */
