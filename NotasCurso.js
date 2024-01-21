@@ -143,3 +143,8 @@
  * *$lt & $lte => menor qué y menor igual
  * *Se pueden hacer combinaciones utilizando distintas propiedades en la query y distintos operadores para cada propiedad
  */
+
+/** 20-Ejemplos de $gt, $gte, $lt, $lte
+ * *Simplemente combinamos operadores
+ * *Las consultas complejas también se pueden realizar desde compass
+ */

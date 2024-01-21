@@ -1,0 +1,12 @@
+use("facu_store")
+
+db.iot.updateMany(
+  // Query
+  { sensor: "A001" },
+  {
+    $pull: {
+      readings: { $gte: 3 }
+    }
+  }
+  // Update
+)
