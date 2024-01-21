@@ -1,0 +1,13 @@
+use("facu_store")
+
+// Usig $gt & $gte
+
+// db.inventory.find({ qty: { $gt: 19 } })
+// db.inventory.find({ qty: { $gte: 20 } })
+
+//Using $lt & $lte
+// db.inventory.find({ qty: { $lt: 20 } })
+// db.inventory.find({ qty: { $lte: 20 } })
+
+// Join
+db.inventory.find({qty: { $gte: 20, $lte: 25,}, _id: {$ne: 5}})

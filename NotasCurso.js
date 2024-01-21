@@ -135,3 +135,11 @@
  * !Para ne es lo mismo que con eq solo que ne siempre tiene que ser de manera explícita
  * *Como son de tipo query se puede utilizar un updateMany o algo por el estilo identificando esos documentos
  */
+
+/** 19-Usando $gt, $gte, $lt, $lte
+ * *Sirven para consultas que involucren números
+ * *Son los => <, >, >=, <=, etc
+ * *$gt & $gte => Mayor qué y mayor igual
+ * *$lt & $lte => menor qué y menor igual
+ * *Se pueden hacer combinaciones utilizando distintas propiedades en la query y distintos operadores para cada propiedad
+ */
