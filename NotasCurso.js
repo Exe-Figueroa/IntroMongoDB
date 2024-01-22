@@ -185,3 +185,9 @@
  * *Permite comparar valores, el primero del array con el segundo del array
  * *Al usar el expressive operator te ves obligado a realizar las demás condiciones de la consulta de forma expresiva
  */
+
+/** 26-Query in subdocs
+ * *Se puede ir a la posición de un array de la siguiente manera
+ *  ?"attribute.indexArr"
+ * *Se utiliza un elemMatch para trar las personas que coincidan con el nombre colocado
+ */

@@ -1,0 +1,35 @@
+use("sample_training")
+
+// db.companies.find({
+//   "relationships.0.person.first_name": {$regex: /mark/i}
+// },{
+//   name: 1,
+//   relationships: 1,
+//   // "relationships.0.person": 1,
+// })
+
+// db.companies.find({
+//   relationships: {
+//     $elemMatch: {
+//       "person.first_name": { $regex: /mark/i }
+//     }
+//   }
+// }, {
+//   name: 1,
+//   relationships: 1,
+// })
+// Para que solo muestre a los mark
+db.companies.find({
+  relationships: {
+    $elemMatch: {
+      "person.first_name": { $regex: /mark/i }
+    }
+  }
+}, {
+  name: 1,
+  relationships: {
+    $elemMatch: {
+      "person.first_name": { $regex: /mark/i }
+    }
+  }
+})
