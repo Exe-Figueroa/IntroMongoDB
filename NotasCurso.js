@@ -225,3 +225,7 @@
  * *charts => Para gráficas, te pide que selecciones las DBs y a partir de eso puedes generar dashboards de los datos que hay en ellas, se pueden agregar pipelines y así generar gráficos más precisos. Es más fácil que hacer una query y crear la gráfica en base a eso
  *  ?Se pueden generar mapas y gráficos de calor para obtener info es buenísimo
  */
+
+/** 30-Toma el Curso de Modelamiento de Datos en MongoDB
+ * TODO: Tomar el Curso de Modelamiento de Datos en MongoDB
+ */
