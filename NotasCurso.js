@@ -214,3 +214,14 @@
  * *El limit viene acompañado del skip que sirve para la paginación
  *  ?Al skip se le pasan los valores de la cantidad de elementos que omite de la lista (Si le ponemos 2, arranca desde el index 2 salteando los primeros 2 elementos)
  */
+
+/** 29-Atlas features
+ * *Digital Ocean ofrece un servicio de administración de bases de datos
+ *  ?Se recomienda eso para la gestion de backups, seguridad, etc (Pero es pago)
+ * *Mongo ofrece autogestión de base de datos
+ * *Ofrece un servicio para hacer búsquedas con ia (Atlas search), hace procesamiento natural del lenguaje y busca documentos de las colecciones
+ * *Ofrece un servicio llamado app service que brinda sistemas de sincronización con lenguajes nativos (kotlin, swift, react native, flutter, etc)
+ *  ?Sirve para apps que tengan soporte offline. Se puede trabajar tranquilamente en la app y cuando haya conexión esos datos serán cargados a la db
+ * *charts => Para gráficas, te pide que selecciones las DBs y a partir de eso puedes generar dashboards de los datos que hay en ellas, se pueden agregar pipelines y así generar gráficos más precisos. Es más fácil que hacer una query y crear la gráfica en base a eso
+ *  ?Se pueden generar mapas y gráficos de calor para obtener info es buenísimo
+ */
