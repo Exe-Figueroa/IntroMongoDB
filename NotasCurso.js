@@ -191,3 +191,16 @@
  *  ?"attribute.indexArr"
  * *Se utiliza un elemMatch para trar las personas que coincidan con el nombre colocado
  */
+
+/** 27-Aggregation Framework
+ * *Esta herramienta está pensada para tener análisis de datos más profundos, al nivel de data science (No se como se escribe), de organizar,acomodar y generar coso de los datos más profundos
+ * *Es más grande que el mongo query language
+ * *Funcionan de la siguiente manera:
+ *  ?Se accede al método aggregate de la collección
+ *  ?En el parámetro se le pasa un array con las distintas condiciones a ejecutar
+ *  ?Para hacer la proyección se utiliza el operador project con las condiciones
+ * *El aggregation Framework funciona por capas
+ * *Se pueden ejecutar agrupaciones con el operador group
+ * !La salida del primer objeto que retorno es la entrada del siguiente
+ * *En base al output de la query se pueden acceder a distintos operadores para obtener información de manera más sencilla
+ */
