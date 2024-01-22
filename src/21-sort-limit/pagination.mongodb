@@ -1,0 +1,6 @@
+use("facu_store")
+
+db.categories
+  .find()
+  .limit(2)
+  .skip(4)

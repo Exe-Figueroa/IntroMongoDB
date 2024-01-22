@@ -204,3 +204,13 @@
  * !La salida del primer objeto que retorno es la entrada del siguiente
  * *En base al output de la query se pueden acceder a distintos operadores para obtener información de manera más sencilla
  */
+
+/** 28-Sort, limit y skip
+ * *Después del método find se coloca el método sort para ordenarlo
+ *  ?Al colocarle 1 le decimos que queremos que lo ordene de forma ascendente
+ *  ?Con -1 es de forma descendente
+ * *Luego del sort se le puede colocar un limit para limitarlo
+ *  ?Se limita pasándole como parámetro la cantidad de documentos que queremos
+ * *El limit viene acompañado del skip que sirve para la paginación
+ *  ?Al skip se le pasan los valores de la cantidad de elementos que omite de la lista (Si le ponemos 2, arranca desde el index 2 salteando los primeros 2 elementos)
+ */
